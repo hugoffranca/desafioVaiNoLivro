@@ -1,3 +1,4 @@
+import s from "../livrosDoados/livrosDoados.module.scss";
 export default function LivrosDoados() {
   return (
     <section>

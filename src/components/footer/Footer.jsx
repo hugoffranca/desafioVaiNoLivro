@@ -11,19 +11,19 @@ export default function Footer() {
         <p>4002-8922</p>
         <nav>
           <a href="">
-            <img src={logoFacebook} alt="" />
+            <img src={logoFacebook} alt="Logo do Facebook" />
           </a>
           <a href="">
-            <img src={logoTwitter} alt="" />
+            <img src={logoTwitter} alt="Logo do Twitter" />
           </a>
           <a href="">
-            <img src={logoYouTube} alt="" />
+            <img src={logoYouTube} alt="Logo do Youtube" />
           </a>
           <a href="">
-            <img src={logoLinkedin} alt="" />
+            <img src={logoLinkedin} alt="Logo do Linkedin" />
           </a>
           <a href="">
-            <img src={logoInstagram} alt="" />
+            <img src={logoInstagram} alt="Logo do Instagram" />
           </a>
         </nav>
       </section>
