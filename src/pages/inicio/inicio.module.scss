@@ -1,0 +1,52 @@
+.secaoH2 {
+  height: 75vh;
+  width: 100%;
+  background-image: url("../../assets/bannerInicioLivros.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  h2 {
+    color: #ffff;
+    font-size: 32px;
+    width: 20%;
+    margin-left: 5%;
+  }
+}
+
+.porqueDoarSection {
+  display: flex;
+  height: 75vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  h2 {
+    width: 90%;
+    color: #005695;
+    font-size: 40px;
+  }
+}
+
+.cardsInicio {
+  display: flex;
+  height: 50vh;
+  justify-content: space-evenly;
+
+  section {
+    width: 20%;
+    background-color: #0157944d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 22px;
+    width: 80%;
+  }
+}
