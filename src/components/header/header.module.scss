@@ -53,6 +53,7 @@ header {
     border: none;
     width: 60%;
     height: 5vh;
+    outline: none;
 
     &::placeholder {
       color: #fff;
@@ -64,5 +65,24 @@ header {
     background-color: transparent;
     border: none;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 780px) {
+  header {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vh;
+  }
+
+  .logoHeader {
+    width: 90%;
+  }
+
+  .navHeader {
+    width: 100%;
+  }
+  .barraDeBusca {
+    display: none;
   }
 }

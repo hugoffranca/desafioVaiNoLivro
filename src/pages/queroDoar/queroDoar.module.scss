@@ -50,3 +50,23 @@ form {
     padding-right: 0;
   }
 }
+
+@media (max-width: 780px) {
+  .queroDoarSection {
+    width: 60vh;
+
+    p {
+      font-size: 18px;
+      width: 60%;
+      text-align: center;
+    }
+  }
+
+  form {
+    width: 70%;
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+}

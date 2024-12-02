@@ -29,3 +29,20 @@
     text-align: center;
   }
 }
+
+@media (max-width: 780px) {
+  .livrosDoadosSection {
+    h2 {
+      height: 10vh;
+    }
+  }
+  .containerCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    section {
+      width: 60%;
+    }
+  }
+}

@@ -25,3 +25,27 @@
   justify-content: center;
   color: #ffff;
 }
+
+@media (max-width: 780px) {
+  .contatosFooter {
+    flex-direction: column;
+    height: 13vh;
+    border: red 2px solid;
+    p {
+      padding-top: 15px;
+    }
+
+    nav {
+      width: 70%;
+    }
+  }
+
+  .copyright {
+    font-size: 12px;
+
+    p {
+      width: 55%;
+      text-align: center;
+    }
+  }
+}
