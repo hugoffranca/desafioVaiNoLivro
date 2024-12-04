@@ -34,6 +34,8 @@ header {
 
     &:hover {
       color: rgb(190, 190, 222);
+      text-decoration: underline;
+      text-underline-offset: 7px;
     }
   }
 }
@@ -72,7 +74,7 @@ header {
   header {
     flex-direction: column;
     justify-content: space-evenly;
-    height: 30vh;
+    height: 22vh;
   }
 
   .logoHeader {
@@ -80,8 +82,14 @@ header {
   }
 
   .navHeader {
-    width: 100%;
+    width: 91%;
+    &:hover {
+      color: rgb(190, 190, 222);
+      text-decoration: underline;
+      text-underline-offset: 7px;
+    }
   }
+
   .barraDeBusca {
     display: none;
   }

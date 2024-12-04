@@ -14,6 +14,15 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 2%;
+
+    a {
+      transform-style: preserve-3d;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-10px) rotateX(5deg) rotateY(-5deg);
+      }
+    }
   }
 }
 
@@ -37,6 +46,16 @@
 
     nav {
       width: 70%;
+      height: 25vh;
+
+      a {
+        transform-style: preserve-3d;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          transform: translateY(-10px) rotateX(5deg) rotateY(-5deg);
+        }
+      }
     }
   }
 

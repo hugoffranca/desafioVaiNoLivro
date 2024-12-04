@@ -42,6 +42,14 @@
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-10px) rotateX(5deg) rotateY(-5deg);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
   }
 
   p {
@@ -80,6 +88,11 @@
     section {
       width: 70%;
       height: 23vh;
+
+      hover {
+        transform: scale(1.03);
+        background-color: #0157948c;
+      }
 
       p {
         font-size: 16px;
