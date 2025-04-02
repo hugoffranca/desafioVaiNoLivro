@@ -33,7 +33,7 @@ export default function QueroDoar() {
 
     try {
       await axios.post("https://api-vainolivro.onrender.com/doar", dadosEnviar);
-      alert("Dados enviados com sucesso!");
+      alert("Livro enviado com sucesso! 📖");
     } catch (error) {
       console.error("Erro ao enviar os dados:", error);
       alert("Ocorreu um erro ao enviar os dados. Por favor, tente novamente.");
@@ -50,17 +50,28 @@ export default function QueroDoar() {
           <img src={iconeForm} alt="Icone de livro aberto" />
           <h2>Informações do Livro</h2>
         </div>
-        <input type="text" placeholder="Título" onChange={capturaTitulo} />
+        <input
+          type="text"
+          placeholder="Título"
+          onChange={capturaTitulo}
+          required
+        />
         <input
           type="text"
           placeholder="Categoria"
           onChange={capturaCategoria}
         />
-        <input type="text" placeholder="Autor" onChange={capturaAutor} />
+        <input
+          type="text"
+          placeholder="Autor"
+          onChange={capturaAutor}
+          required
+        />
         <input
           type="text"
           placeholder="Link da Imagem"
           onChange={capturaImage_url}
+          required
         />
         <input
           type="submit"
