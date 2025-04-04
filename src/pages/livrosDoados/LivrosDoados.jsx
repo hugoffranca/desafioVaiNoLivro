@@ -24,6 +24,8 @@ export default function LivrosDoados() {
             <div>
               <h3>{item.titulo}</h3>
               <img src={item.image_url} alt={item.titulo} />
+              <h4>{item.autor}</h4>
+              <h5>{item.categoria}</h5>
             </div>
           </section>
         ))}
